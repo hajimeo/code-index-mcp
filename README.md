@@ -29,7 +29,8 @@ Code Index MCP is a [Model Context Protocol](https://modelcontextprotocol.io) se
 ```
 git clone https://github.com/hajimeo/code-index-mcp.git
 python3 -m venv .venv && source .venv/bin/activate
-pip install -r ./requirements.txt
+#pip install -r ./requirements.txt
+pip install -e .
 ```
 
 The easiest way to get started with any MCP-compatible application:
