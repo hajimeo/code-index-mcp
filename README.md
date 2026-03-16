@@ -26,6 +26,12 @@ Code Index MCP is a [Model Context Protocol](https://modelcontextprotocol.io) se
 
 ### 🚀 **Recommended Setup (Most Users)**
 
+```
+git clone https://github.com/hajimeo/code-index-mcp.git
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r ./requirements.txt
+```
+
 The easiest way to get started with any MCP-compatible application:
 
 **Prerequisites:** Python 3.10+ and [uv](https://github.com/astral-sh/uv)
